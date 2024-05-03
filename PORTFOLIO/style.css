@@ -1,0 +1,112 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding:20px 10%;
+    background:transparent;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 35px;
+    color:rgb(232, 93, 38);
+    text-decoration:none;
+    font-weight: 800;
+}
+.navbar a{
+    font-size: 18px;
+    color:#fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+.navbar a:hover,
+.navbar a.active{
+    color:rgb(230, 102, 55);
+}
+.home{
+    height: 100vh;
+    background:linear-gradient(-90deg, #031540 65%, #fff 35%); 
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+}
+.home-image{
+    width:500px;
+    height:500px;
+    background-color:rgb(232, 93, 38);
+    border-radius: 50%;
+    border:25px solid #fff;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    outline: 25px solid #031540 ;
+}
+.home-image img{
+    position: relative;
+    max-width: 460px;
+    bottom:38px;
+}
+.home-content{
+    max-width: 600px;
+    color:#fff;
+    text-align: right;
+}
+.home-content h1{
+    font-size: 55px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.2;
+}
+.home-content h3{
+    font-size:40px;
+    color:#00abf0;
+}
+.home-content p{
+    font-size: 15px;
+    margin-top: 20px;
+}
+.home-sci{
+    margin: 25px 0 40px;
+}
+.home-sci a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #00abf0;
+    text-decoration: none;
+    margin-left:15px;
+    transition: .5s;
+}
+.home-sci a:hover{
+    background: #00abf0;
+    color: #fff;   
+}
+.button{
+    padding: 12px 35px;
+    background: rgb(232, 93, 38);
+    border-radius:35px ;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    transition: .5s;
+}
